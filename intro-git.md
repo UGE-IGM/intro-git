@@ -12,6 +12,22 @@
 Dans ce tutoriel,
 vous apprendrez à utiliser Git,
 un outil de gestion de versions décentralisé.
+Il vous permettra
+de collaborer efficacement avec vos collègues
+sur des projets de programmation
+et de conserver un historique des versions de votre code.
+Tous vos échanges de fichiers pourront ainsi passer par Git
+plutôt que par des canaux mal adaptés
+tels que Discord ou les emails.
+
+La prise en main de Git est loin d'être évidente,
+mais l'effort d'apprentissage sera vite rentabilisé:
+Git est aujourd'hui
+un outil incontournable dans le monde du développement informatique.
+Vous serez amenés à l'utiliser régulièrement
+au cours de vos études,
+et très probablement dans votre vie professionnelle
+si vous poursuivez dans ce domaine.
 
 Nous supposerons
 qu'il s'agit de votre premier contact avec Git
@@ -1841,7 +1857,7 @@ de nombreuses ressources gratuites sont à votre disposition:
   qui sont généralement plus faciles à utiliser
   que `git checkout`.
 
-* [Git Immersion](http://gitimmersion.fr):
+* [Git Immersion](https://gitimmersion.com):
   un tutoriel similaire à celui que vous venez de suivre,
   mais plus complet.
 
