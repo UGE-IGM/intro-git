@@ -66,7 +66,7 @@ sur la plateforme en ligne GitHub.
 ### Votre éditeur de texte
 
 ```shell
-~$ git config --global core.editor gnome-text-editor
+~$ git config --global core.editor gedit
 ```
 
 Vous pouvez indiquer l'éditeur de texte de votre choix ici
@@ -76,7 +76,7 @@ comme Microsoft Word ou LibreOffice Writer).
 C'est cet éditeur qui sera ouvert automatiquement
 lorsque Git vous demandera de saisir un message.
 Si vous ne savez pas lequel choisir,
-utilisez `gnome-text-editor` pour le moment.
+utilisez `gedit` pour le moment.
 
 ### Le nom de la branche par défaut
 
@@ -106,7 +106,7 @@ avec la commande `cat`:
   name = Prénom Nom
   email = email@example.com
 [core]
-  editor = gnome-text-editor
+  editor = gedit
 [init]
   defaultBranch = main
 ```
@@ -122,7 +122,7 @@ les informations récupérées à partir de ce fichier:
 ```console
 user.name=Prénom Nom
 user.email=email@example.com
-core.editor=gnome-text-editor
+core.editor=gedit
 init.defaultbranch=main
 ```
 
@@ -161,7 +161,7 @@ et écrivez-y un message
 Par exemple:
 
 ```shell
-~/alice$ gnome-text-editor hello.txt
+~/alice$ gedit hello.txt
 ```
 
 Notez que l'invite de commande est maintenant `~/alice$` au lieu de `~$`,
@@ -430,7 +430,7 @@ pour modifier son travail existant.
 Modifiez le fichier `hello.txt`:
 
 ```shell
-~/alice$ gnome-text-editor hello.txt
+~/alice$ gedit hello.txt
 ~/alice$ cat hello.txt
 ```
 
@@ -743,7 +743,7 @@ Modifiez le fichier `hello.txt` de Bob
 (pas celui d'Alice):
 
 ```shell
-~/bob$ gnome-text-editor hello.txt
+~/bob$ gedit hello.txt
 ~/bob$ cat hello.txt
 ```
 
@@ -821,7 +821,7 @@ Remodifiez le fichier `hello.txt` d'Alice
 puis enregistrez les modifications dans un nouveau commit:
 
 ```shell
-~/alice$ gnome-text-editor hello.txt
+~/alice$ gedit hello.txt
 ~/alice$ cat hello.txt
 ```
 
@@ -1047,7 +1047,7 @@ en prenant soin de supprimer les marques de résolution
 ajoutées par Git:
 
 ```shell
-~/alice$ gnome-text-editor hello.txt
+~/alice$ gedit hello.txt
 ~/alice$ cat hello.txt
 ```
 
@@ -1422,7 +1422,7 @@ modifiez à nouveau le fichier `hello.txt`,
 puis ajoutez un nouveau commit à l'historique:
 
 ```shell
-~/bob$ gnome-text-editor hello.txt
+~/bob$ gedit hello.txt
 ~/bob$ cat hello.txt
 ```
 
